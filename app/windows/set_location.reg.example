@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Mozilla\NativeMessagingHosts\ccle_video_downloader]
+@="C:\\Path\\To\\CCLE video downloader\\app\\ccle_video_downloader.json"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\NativeMessagingHosts\ccle_video_downloader]
+@="C:\\Path\\To\\CCLE video downloader\\app\\ccle_video_downloader.json"

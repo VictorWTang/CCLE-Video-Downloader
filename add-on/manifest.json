@@ -1,0 +1,25 @@
+{
+  "description": "Download videos that are hosted on CCLE",
+  "manifest_version": 2,
+  "name": "CCLE Video Downloader",
+  "version": "1.0",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ccle_video_downloader@victorwtang.dev"
+    }
+  },
+  
+  "permissions": [
+    "clipboardWrite",
+    "nativeMessaging",
+    "tabs",
+    "activeTab",
+    "webRequest",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}

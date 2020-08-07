@@ -1,0 +1,7 @@
+{
+  "name": "ccle_video_downloader",
+  "description": "Download videos from CCLE",
+  "path": "C:\\Path\\To\\CCLE video downloader\\app\\windows\\ccle_video_downloader.bat",
+  "type": "stdio",
+  "allowed_extensions": ["ccle_video_downloader@victorwtang.dev"]
+}
