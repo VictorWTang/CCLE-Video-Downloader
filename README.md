@@ -2,7 +2,7 @@
 
 ## About
 
-A Firefox addon and Python script to downloads videos from CCLE.
+A Firefox addon and Python script to download videos from CCLE.
 
 ## Installation
 
