@@ -24,6 +24,14 @@ TODO
 
 On a page with a CCLE video, press the play button of the video you want to download. A notification will appear near the top of the screen. At this point, the video will begin downloading. You may pause the video or close the tab.
 
+## How this works
+
+The browser add-on is composed of a background and a content-script. The background script listens for URLs that match this filter: `https://cdnapisec.kaltura.com/*a.m3u8*`. Those URLs contain the information required to download the video. When a request with a URL that matches that filter is made, the background script executes the content script in the tab from where the request was made. The content script displays a notification (a toast) and looks for the class name and video title. The notification indicates that a video has begun downloading. The class name and video title are derived from the CCLE page by using the navigation links at the top. The content script then sends the class name and video information to the background script, which then bundles that information with the video URL and sends it to the external Python script.
+
+The external Python script receives the video information. From that, it creates (if not existing already) a sub-folder for the class, and downloads the video into that sub-folder. The script uses the Youtube-dl library. The base directory to download videos into can be configured using the `config` file in the app directory.
+
+Communication between the Firefox add-on and the Python script is done using the "NativeMessaging" API. 
+
 ## To-do
 
 * Test without the `tabs` permission, it might not be necessary
