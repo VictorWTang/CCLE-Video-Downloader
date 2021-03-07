@@ -3,3 +3,4 @@ app/windows/ccle_video_downloader.bat
 app/windows/set_location.reg
 app/ccle_video_downloader.json
 app/config
+*.log

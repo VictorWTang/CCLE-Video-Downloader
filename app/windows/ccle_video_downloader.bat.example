@@ -3,5 +3,5 @@
 set "CCLE_VIDEO_DOWNLOADER_PATH=C:\Path\To\CCLE video downloader\app"
 
 cd %CCLE_VIDEO_DOWNLOADER_PATH%
-python -u "%CCLE_VIDEO_DOWNLOADER_PATH%\ccle_video_downloader.py"
+python -u "%CCLE_VIDEO_DOWNLOADER_PATH%\ccle_video_downloader.py" >> downloader.log 2>&1
 
