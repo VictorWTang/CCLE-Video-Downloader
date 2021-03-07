@@ -14,7 +14,8 @@ A Firefox addon and Python script to download videos from CCLE.
 4. Copy the `app\config.example` file to `app\config`. Edit the path option to set where you want to save the files to.
 5. Add all files in the `add-on` folder to a `.zip` archive. To do this, select all the files in the `add-on` folder, right click, and select `Send to > Compressed (zipped) folder`.
 6. In Firefox, visit the `about:debugging` page by entering it into the URL bar. Select `This Firefox` on the left menu, and click `Load Temporary Add-on...`. Select the `.zip` file created in step 5.
-7. Remove the extension after downloading the videos you want.
+7. At this point, you are all set. Refer to the Usage section on how to download videos.
+8. Remove the extension after downloading the videos you want.
 
 ### For Mac/Linux
 
