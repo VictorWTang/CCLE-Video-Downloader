@@ -41,9 +41,6 @@ def send_message(encoded_message):
 def sanitize_filename_for_windows(filename):
     return re.sub(r'[\\/:*?"<>|]', "_", filename)
 
-with open("hello.txt", "w") as f:
-    f.write(os.getcwd())
-
 
 config = configparser.ConfigParser()
 config.read("config")
