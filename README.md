@@ -47,3 +47,4 @@ Communication between the Firefox add-on and the Python script is done using the
 * Write an initialization script that automatically generates the directory-dependent files
 * Add option to ask for confirmation before downloading files
 * Add warning when add-on cannot communicate with downloader script
+* Detect when youtube-dl is not installed and display error in browser window
