@@ -41,3 +41,4 @@ Communication between the Firefox add-on and the Python script is done using the
 * Provide more useful notifications
 * Support Mac/Linux better
 * Write an initialization script that automatically generates the directory-dependent files
+* Add option to ask for confirmation before downloading files
