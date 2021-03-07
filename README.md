@@ -6,6 +6,10 @@ A Firefox addon and Python script to download videos from CCLE.
 
 ## Installation
 
+### All Platforms
+
+1. Install the `youtube-dl` library for Python by running `pip install youtube-dl`.
+
 ### For Windows
 
 1. Copy the `app\windows\ccle_video_downloader.bat.example` file to `app\windows\ccle_video_downloader.bat`. On line 3, change "`C:\Path\To\CCLE video downloader\app`" to match the location of the app folder.
@@ -42,3 +46,4 @@ Communication between the Firefox add-on and the Python script is done using the
 * Support Mac/Linux better
 * Write an initialization script that automatically generates the directory-dependent files
 * Add option to ask for confirmation before downloading files
+* Add warning when add-on cannot communicate with downloader script
